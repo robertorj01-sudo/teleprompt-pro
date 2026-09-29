@@ -5,7 +5,7 @@ import { defineConfig } from 'vite';
 export default defineConfig(() => {
   return {
     plugins: [
-      react(),
+      react()]},
       
         registerType: 'autoUpdate',
         includeAssets: ['favicon.png', 'apple-touch-icon.png', 'icon.svg'],
