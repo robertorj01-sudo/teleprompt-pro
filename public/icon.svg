@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#18181b"/>
+      <stop offset="100%" stop-color="#09090b"/>
+    </linearGradient>
+    <linearGradient id="screenGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#27272a"/>
+      <stop offset="100%" stop-color="#18181b"/>
+    </linearGradient>
+    <linearGradient id="amberGlow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fbbf24"/>
+      <stop offset="100%" stop-color="#d97706"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Outer Rounded Container -->
+  <rect width="512" height="512" rx="112" fill="url(#bgGrad)"/>
+  <rect x="8" y="8" width="496" height="496" rx="104" fill="none" stroke="#3f3f46" stroke-width="6"/>
+
+  <!-- Teleprompter Screen Glass -->
+  <rect x="64" y="64" width="384" height="280" rx="32" fill="url(#screenGrad)" stroke="#52525b" stroke-width="4"/>
+  
+  <!-- Line Guide (Laser Cue Line) -->
+  <line x1="84" y1="180" x2="428" y2="180" stroke="#f59e0b" stroke-width="6" stroke-linecap="round"/>
+  <!-- Focus Triangular Points -->
+  <polygon points="84,170 100,180 84,190" fill="#f59e0b"/>
+  <polygon points="428,170 412,180 428,190" fill="#f59e0b"/>
+
+  <!-- Text Lines Scrolling -->
+  <rect x="120" y="110" width="272" height="14" rx="7" fill="#71717a"/>
+  <rect x="120" y="140" width="220" height="14" rx="7" fill="#a1a1aa"/>
+  
+  <!-- Active Focused Text Line on Cue -->
+  <rect x="120" y="173" width="250" height="14" rx="7" fill="#fbbf24"/>
+  
+  <!-- Lower Text Lines -->
+  <rect x="120" y="210" width="272" height="14" rx="7" fill="#a1a1aa"/>
+  <rect x="120" y="240" width="190" height="14" rx="7" fill="#71717a"/>
+  <rect x="120" y="270" width="230" height="14" rx="7" fill="#52525b"/>
+
+  <!-- Bottom Stand / Controls Base -->
+  <rect x="196" y="344" width="120" height="32" rx="8" fill="#27272a" stroke="#3f3f46" stroke-width="3"/>
+  <rect x="144" y="376" width="224" height="20" rx="10" fill="#18181b" stroke="#3f3f46" stroke-width="3"/>
+
+  <!-- Prompter Floating Record Badge / Camera Lens -->
+  <circle cx="256" cy="440" r="32" fill="url(#amberGlow)"/>
+  <polygon points="250,426 270,440 250,454" fill="#09090b"/>
+</svg>

@@ -1,0 +1,11 @@
+{
+  "name": "Teleprompter Pro - Estúdio de Apresentação",
+  "description": "Aplicativo profissional de teleprompter para criadores de conteúdo, apresentadores e palestrantes com rolagem suave, espelhamento, controle de velocidade e biblioteca de roteiros.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
